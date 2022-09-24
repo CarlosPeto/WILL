@@ -13,7 +13,8 @@ function numeroSimetrico(num) {
   // numeroSimetrico(11711) devuelve true
 
   // Tu código:
-
+  let numero=''+num;
+   if(numero[0]===numero[numero.length-1]){return true;}return false;  
 }
 
 // No modifiques nada debajo de esta linea //
