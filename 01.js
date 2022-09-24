@@ -11,7 +11,8 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
-
+ var num=array.filter(array=>Number.isInteger(array));
+  return num;
 }
 
 // No modifiques nada debajo de esta linea //
